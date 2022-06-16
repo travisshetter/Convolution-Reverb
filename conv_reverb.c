@@ -206,3 +206,4 @@ bool write_output(SNDFILE *sfile, SF_INFO *sfinfo, float *buf[MAX_CHN], long fra
 	printf("Wrote %ld frames\n", frames);
 	return true;
 }
+
